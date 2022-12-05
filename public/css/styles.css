@@ -12,12 +12,12 @@ body {
 
 /*Navbar system*/
 
-div#navbar {
+div.navbar {
     display:block;
     background-color:#333;
 }
 
-div#navbar ul {
+div.navbar ul {
     margin:0;
     display:flex;
     flex-direction:row;
@@ -39,4 +39,60 @@ li.navelement.active a {
 li.navelement a:hover {
     background-color:#262;
     text-decoration:underline;
+}
+
+/*Main page content*/
+
+div.main {
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    background-color:#002;
+}
+
+div.header-big {
+    text-align:center;
+    padding: 20px;
+}
+
+div.content-1 {
+    text-align:center;
+    background-color: #020;
+}
+
+/*Footer*/
+
+div.footer {
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    background-color:#000;
+}
+
+div.footer-menu {
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    justify-content:center;
+}
+
+/*Misc*/
+
+a.button {
+    padding:8px;
+    background-color:#222;
+}
+
+a.button:hover {
+    background-color: #262;
+}
+
+a {
+    color:#fff;
+    text-decoration:none;
+}
+
+div.footer-menu a:hover {
+    color:gold;
+    text-decoration: underline;
 }
